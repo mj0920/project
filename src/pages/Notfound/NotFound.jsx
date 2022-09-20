@@ -2,7 +2,12 @@ import './notfound.css'
 
 const NotFound = () => {
   return (
-    <div>notfound</div>
+    <div >NotFound
+
+ 
+
+
+</div>
   )
 }
 

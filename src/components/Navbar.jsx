@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
@@ -20,10 +19,7 @@ const Navbar = () => {
     <nav>
            
       <div className="container nav__container">
-        <Link to="/" className="logo" onClick={()=>{ setisNavShowing(false)
-
-
-        }}>
+        <Link to="/" className="logo">
           <img src={logo} alt="Nav Logo"></img>
         </Link>
       {/* 로고 링크화 */}
@@ -35,9 +31,7 @@ const Navbar = () => {
           {links.map(({ name, path }, index) => {
             return (
               <li key={index}>
-                <NavLink to={path} className={({isActive})  => isActive ? 'active-nav' : ''}
-                onClick={()=>  setisNavShowing(prev => !prev)}
-                > {name}</NavLink>
+                <NavLink to={path} className={({isActive})  => isActive ? 'active-nav' : ''}> {name}</NavLink>
               </li>
             );
           })}
@@ -47,7 +41,7 @@ const Navbar = () => {
 
 
   <button className="nav__toggle-btn " onClick={()=>{
-setisNavShowing(prev => !prev)
+setisNavShowing(!isNavShowing)
 // 토글 클릭 활성화
 
 
