@@ -20,7 +20,10 @@ const Navbar = () => {
     <nav>
            
       <div className="container nav__container">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={()=>{ setisNavShowing(false)
+
+
+        }}>
           <img src={logo} alt="Nav Logo"></img>
         </Link>
       {/* 로고 링크화 */}
@@ -32,7 +35,9 @@ const Navbar = () => {
           {links.map(({ name, path }, index) => {
             return (
               <li key={index}>
-                <NavLink to={path} className={({isActive})  => isActive ? 'active-nav' : ''}> {name}</NavLink>
+                <NavLink to={path} className={({isActive})  => isActive ? 'active-nav' : ''}
+                onClick={()=>  setisNavShowing(prev => !prev)}
+                > {name}</NavLink>
               </li>
             );
           })}
@@ -42,7 +47,7 @@ const Navbar = () => {
 
 
   <button className="nav__toggle-btn " onClick={()=>{
-setisNavShowing(!isNavShowing)
+setisNavShowing(prev => !prev)
 // 토글 클릭 활성화
 
 

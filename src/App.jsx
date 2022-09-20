@@ -24,16 +24,17 @@ const App = ()=> {
    <div>  
 <BrowserRouter>
 <Navbar/>
+<Routes>
+<Route path ='index' element ={<Home/>}/>
+<Route path ='about' element ={<Contact/>}/>
+<Route path ='about' element ={<Gallery/>}/>
+<Route path ='about' element ={<Plans />}/>
+<Route path ='about' element ={<Trainers/>}/>
+<Route path ='about' element ={<Notfound/>}/>
 
 
+</Routes>
 
-<Home/>
-<About/>
-<Contact/>
-<Gallery/>
-<Plans/>
-<Trainers/>
-<Notfound/>
 
 
 </BrowserRouter>
