@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-
+import  Image  from '../images/main__header.png'
 
 
 
@@ -19,6 +19,8 @@ const MainHeader = () => {
 <Link to="/plans" className='btn lg '>GET START</Link>
 
 </div>
+<div className='main__header-image'></div>
+<img src={Image} alt='Main Header Image'/>
 
 
 
