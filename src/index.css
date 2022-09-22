@@ -81,51 +81,143 @@ width: 100%;
 .btn {
 
 color : rgb(109, 245, 109);
-width : fit-content;
-margin: 0 auto;
-padding: 0.9rem 2rem;
+
 background: var(--color-primary);
 border-radius:  1.5rem;
+position: relative;
+z-index: 10;
+min-width: 178px;
+height: 60px;
+padding: 20px;
+
 
 
 }
 
-.btn a{
-    
-    transition: var(--transition);
-}
 
-
-.btn a:hover{
+.btn:hover{
+   background-color: var(--color-secondary);
     color : white
 }
 
 
+.btn.lg {
+padding: 1.2rem 3rem;
+border-radius: 2rem;
+font-size: 1.1rem;
+text-align: center;
+
+}
+
+.btn.sm{
+
+padding : 0.4rem 1,2rem;
+font-size: 0.9rem;
+
+}
+
+.btn.sm:hover{
+
+background: rgb(172, 171, 171);
+
+}
 /* get start  버튼*/
+
+section{
+
+    margin-top:  10rem;
+
+}
+
+.section__head{
+
+display : flex;
+align-items: center;
+gap: 1rem
+
+}
+
+.section__head span{
+    background: rgb(83, 83, 83);
+padding : 0.8;
+border-radius : 1rem;
+color: var(--color-secondary);
+font-size: 1.5rem;
+
+}
+
 
 
 video{
 
 width: 100%;
 
-object-fit: contain;
+
+
+z-index: 1;
+    display: grid;
+    place-items: center;
+    position: relative;
+   
 
 }
 
+.imageBg:after {
 
-
-
-.imageBg{
-
-    position: absolute;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: 200;
     width: 100%;
     height: 294px;
-    background:  no-repeat;
+    background:  0 0 no-repeat;
     background-size: 100% 100%;
     content: '';
-    
+
 }
 
+.card{
+
+background: rgb(85, 2, 145) ;
+border : 2px solid transparent;
+text-align : center;
+padding: 3rem 2rem;
+border-radius: 0 3rem 0 3rem ;
+transition: var(--transition);
+}
+
+.card:hover{
+    
+    background : transparent ;
+    border-color : wheat ;
+    cursor : default;
+}
+
+
+.card span{
+width: 3rem;
+height : 3rem;
+background: var(--color-secondary);
+color: rgb(231, 228, 228);
+font-size : 1.5rem;
+padding: 0.8rem;
+display: grid;
+place-items : center;
+margin-bottom : 1.5rem;
+margin-inline:  auto;
+border-radius :  1rem;
+transition: var(--transition) ;
+
+}
+
+.card:hover span{
+
+    background: var(--color-secondary);
+    color :rgb(83, 83, 83);
+    font-weight: 300;
+}
+/* 아이콘 색상 변경 */
+
+
+
+/* play now 버튼 */
 

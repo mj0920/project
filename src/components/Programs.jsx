@@ -1,20 +1,33 @@
-import {FaCrown} from 'react'
-import Icon from '..images/2.png'
-
-
+import { FaCrown } from "react-icons/fa";
+import SectionHead from "./SectionHead";
+import { programs } from "../data";
+import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { AiFillCaretRight } from "react-icons/ai";
 
 const Programs = () => {
   return (
-<section className="Programs">
-<div className="container programs__container">
-<div className="programs_head"></div>
-<span ></span>
+    <section className="Programs">
+      <div className="container programs__container">
+        <SectionHead icon={<FaCrown />} title="programs" />
+      
+      <div className="programs__wrapper">
+       {
+       programs.map(({ id, icon, title, info, path }) => {
+        return (
+          <Card className="programs__programs" key={id}>
+            <span>{icon}</span>
+            <h4>{title}</h4>
+            <small>{info}</small>
+            <Link to={path} className="btn sm"> play Now    <AiFillCaretRight />      </Link>
+          </Card>
+        )
+      })
+      }
+      </div>
+      </div>
+    </section>
+  );
+};
 
-
-
-</div>
-</section>
-  )
-}
-
-export default Programs
+export default Programs;
