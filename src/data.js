@@ -171,43 +171,39 @@ answer: "대충답변 아무답변"
 
 ]
 
-export const character = [
-{   id : 1,
+export const characters = [
+{
+    id : 1,
     name : "민준",
-    good : "집가까움",
-    bad : "그게다임",
-  avatar : require("./images/Boy.png")
-
+    quote : "집이 가까운데 의외로 늦는 경우가 많음 열심히 하긴 하는데 인풋대비 아웃풋이 별로",
+    job : "전사" ,
+    avater : require("./images/avatar1.png")
 },
 
-{   id : 2,
-    name : "준표",
-    good : "코딩잘함",
-    bed : "그게다임",
-  avatar : require("./images/Miya.png")
-
-},
-
-{   id : 1,
-    name : "정현",
-    good : "착함",
-    bad : "시끄러움",
-  avatar : require("./images/Beast.png")
-
-},
-
-{   id : 1,
+{
+    id : 2,
     name : "션",
-    good : "착함",
-    bad : "지각함",
-  avatar : require("./images/Girl.png")
+    quote : "맥북이라는 유니크 아이템 획득 후 실력이 월취일장이됨 소화 잘함 단 지각자주함 ",
+    job : "알바요정" ,
+    avater : require("./images/avatar2.png")
+},
 
-}
+{
+    id : 3,
+    name : "정현",
+    quote : "성격 좋고 센스가 있음 근데 집중력이 부족함 ",
+    job : "광대" ,
+    avater : require("./images/avatar3.png")
+},
+
+
+{
+    id : 4,
+    name : "준표",
+    quote : "능력과 노력 최상급 괴물 단 가끔씩 컬렉터가 되어 주화입마에 빠짐",
+    job : "탱커" ,
+    avater : require("./images/avatar4.png")
+},
 
 ]
-
-
-
-
-
 export default links
