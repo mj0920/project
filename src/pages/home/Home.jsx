@@ -5,6 +5,7 @@ import Programs from '../../components/Programs'
 import Values from '../../components/Values'
 import './home.css'
 import Characters from '../../components/Characters'
+import Footer from '../../components/Footer'
 
 
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
  <Values/>
  <FAQs/>
  <Characters/>
-
+<Footer/>
 
 
     </div>

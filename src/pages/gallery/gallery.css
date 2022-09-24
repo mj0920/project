@@ -1,0 +1,59 @@
+
+    
+    .gallery__container article{
+    
+    border :  1rem solid transparent;
+    transition: var(--transition);
+    
+    }
+    
+    .gallery__container article:hover {
+    
+    border-color: rgb(122, 121, 121);
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width: 1024px) {
+    
+        .gallery__container{
+        
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        
+        }
+        
+    .gallery__container article{
+    
+    border: 0;
+    
+    }
+    
+        }
+            
+        
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width: 600px) {
+    
+    .gallery__container{
+    
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    
+    }
+    
+    }
+        
+    

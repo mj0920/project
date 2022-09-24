@@ -7,6 +7,7 @@ import Notfound from "./pages/Notfound/NotFound"
 import Trainers from "./pages/trainers/Trainers"
 import About from './pages/about/About'
 import Navbar from './components/Navbar'
+import Footer from "./components/Footer"
 
 
 
@@ -32,6 +33,7 @@ const App = ()=> {
 
 
 </Routes>
+<Footer/>
 </BrowserRouter>
     </div>
   )
