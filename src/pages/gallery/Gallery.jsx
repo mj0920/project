@@ -1,9 +1,16 @@
+import Header from '../../components/Header'
 import './gallery.css'
 
-const gallery = () => {
+const Gallery = () => {
   return (
-    <div>gallery</div>
+    <>
+    
+    
+    
+    
+    
+    </>
   )
 }
 
-export default gallery
+export default Gallery
