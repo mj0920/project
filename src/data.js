@@ -207,7 +207,7 @@ export const plans = [
     {
         id: 1,
         name: 'Silver 회원',
-        desc: '러닝을 시작하는 러닝 초보를 위한 선택 ',
+        desc: '스타터 패키지 ',
         price: "100,000",
         features: [
             {feature: '1일 1회 음료 제공', available: true},
@@ -228,7 +228,7 @@ export const plans = [
     {
         id: 2,
         name: 'Gold 회원',
-        desc: '달리기 좀 한다는 분을 위한 선택',
+        desc: '스타터 패키지 2',
         price: "200,000",
         features: [
             {feature: '1일 1회 음료 제공', available: true},
@@ -249,7 +249,7 @@ export const plans = [
     {
         id: 3,
         name: 'Platinum 회원',
-        desc: '혼자서도 잘달리는데 돈이 남아 도는 분을 위한 선택',
+        desc: '돈이 남아도는분들을 위한 선택',
         price: "30,000,000",
         features: [
             {feature: '1일 1회 음료 제공', available: true},

@@ -18,13 +18,13 @@ const Plans = () => {
               <h3>{name}</h3>
               <small>{desc}</small>
               <h1>{`￦${price}`}</h1><h2>월</h2>
-              <h4>Features</h4>
+              <h4>혜택</h4>
               {
                 features.map(({feature, available}, index) => {
                   return <p key={index} className={!available ? 'disabled' : ''}>{feature}</p>
                 })
               }
-              <button className='btn lg'>Choose Plan</button>
+              <button className='btn lg'>회원가입</button>
             </Card>
           })
         }

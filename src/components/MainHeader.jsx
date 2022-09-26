@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
 import  Image  from '../images/main__header.png'
+import VideoBg from '../video/videoBg.mp4'
 import  ImageBg  from '../images/1.png'
 
 
@@ -12,16 +13,15 @@ const MainHeader = () => {
 <div className='main__header-left'>
 
   
-  {/* <video src={VideoBg} autoPlay loop muted ></video> */}
-  {/* <div className='imageBg' ><img src={ImageBg} alt='사진'/></div> */}
+  <video src={VideoBg} autoPlay loop muted ></video>
+  <div className='imageBg' ><img src={ImageBg} alt='사진'/></div>
   
 
-<h4>RUN!!</h4>
-<h1>더 나은 러닝을 위한 가이드</h1>
-<p> RUN TO YOU 는 올바른 더나은 달리기를 위한 러닝 도움 사이트입니다
- 
- 
+<h4>모험의 시작</h4>
+<h1>전설의 시작</h1>
+<p>
 
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro blanditiis placeat beatae dolores. Labore ut accusantium corporis, maiores voluptate iste itaque, earum consequatur consectetur perferendis fugiat assumenda, esse repudiandae modi!
 </p>
 
 <Link to="/plans" className='btn lg '>GET START</Link>

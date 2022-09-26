@@ -9,9 +9,9 @@ import './contact.css'
 const Contact = () => {
   return (
     <>
-    <Header title = "SUPPORT" image={HeaderImage} >
+    <Header  image={HeaderImage} >
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quam distinctio odit blanditiis incidunt dolor deserunt, porro magnam nostrum reprehenderit! Fugiat, mollitia culpa? Quam, culpa! Sed omnis deserunt non suscipit?
+
     </Header>
 
 
