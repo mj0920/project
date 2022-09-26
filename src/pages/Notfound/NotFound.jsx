@@ -1,26 +1,14 @@
-
 import {Link} from 'react-router-dom'
-import './notfound.css'
-import notfound from '../../images/notfound.gif'
-
+import './notFound.css'
 
 const NotFound = () => {
   return (
- <section>
-
-<div className="container notfound__container">
-
-<img src={notfound}/>
-<Link to = "/" className='btn'>  홈으로 돌아가세요</Link>
-</div>
-
-
- </section>
-
-
-
-
-
+    <section>
+      <div className="container notfound__container">
+        <h2>Page Not Found</h2>
+        <Link to="/" className='btn'>Go Back Home</Link>
+      </div>
+    </section>
   )
 }
 

@@ -4,7 +4,7 @@ import Card from "../UI/Card"
 import {IoIosArrowDropleftCircle, IoIosArrowDroprightCircle} from 'react-icons/io'
 import { useState } from "react"
 import {characters} from "../data"
-import { Prev } from "react-bootstrap/esm/PageItem"
+
 
 
 const Characters = () => {
@@ -37,7 +37,7 @@ if(index >= characters.length -1){
   return (
 <section className="characters">
 <div className="contaniner characters__contaniner">
-<SectionHead icon={<ImQuotesLeft/>} title="Characters" className="characters_head"/>
+<SectionHead icon={<ImQuotesLeft/>} title="후기" className="characters_head"/>
 <Card className= "characters">
   <div className="characters__avatar">
 <img src={avatar} alt ={name} />

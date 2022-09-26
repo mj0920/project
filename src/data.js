@@ -23,10 +23,9 @@ export const links = [
 
 },
 
-{ name : "Trainers",
-  path : '/traniers' 
 
-},
+
+
 
 { name : "Contact",
   path : '/contact' 
@@ -42,7 +41,7 @@ export const programs =[
     icon :<GiDeathSkull/>,
     title : "program one",
     info : " 대충아무내용",
-    path : "/programs/111"
+    path : "http://localhost:3000/plans"
 
 
 },
@@ -115,13 +114,7 @@ export const values =[
 
 
 export const faqs =[
-{
-id : 1,
-question :"대충 아무질문",
-answer: "대충답변 아무답변"
 
-
-},
 
 {
     id : 1,
@@ -175,35 +168,112 @@ export const characters = [
 {
     id : 1,
     name : "민준",
-    quote : "집이 가까운데 의외로 늦는 경우가 많음 열심히 하긴 하는데 인풋대비 아웃풋이 별로",
-    job : "전사" ,
+    quote : "재밌어요",
+    job : "개발자" ,
     avater : require("./images/avatar1.png")
 },
 
 {
     id : 2,
-    name : "션",
-    quote : "맥북이라는 유니크 아이템 획득 후 실력이 월취일장이됨 소화 잘함 단 지각자주함 ",
-    job : "알바요정" ,
+    name : "민준2",
+    quote : "도트 케릭터가 너무 귀엽네여 ",
+    job : "빚쟁이" ,
     avater : require("./images/avatar2.png")
 },
 
 {
     id : 3,
-    name : "정현",
-    quote : "성격 좋고 센스가 있음 근데 집중력이 부족함 ",
-    job : "광대" ,
+    name : "민준3",
+    quote : "스토리가 너무 마음에 들어요",
+    job : "백수" ,
     avater : require("./images/avatar3.png")
 },
 
 
 {
     id : 4,
-    name : "준표",
-    quote : "능력과 노력 최상급 괴물 단 가끔씩 컬렉터가 되어 주화입마에 빠짐",
-    job : "탱커" ,
+    name : "민준4",
+    quote : "브금이 좋아요",
+    job : "트레이너" ,
     avater : require("./images/avatar4.png")
 },
 
 ]
+
+
+
+
+export const plans = [
+    {
+        id: 1,
+        name: 'Silver 회원',
+        desc: '러닝을 시작하는 러닝 초보를 위한 선택 ',
+        price: "100,000",
+        features: [
+            {feature: '1일 1회 음료 제공', available: true},
+            {feature: '1시간 코칭', available: true},
+            {feature: '주 1회 치킨 제공', available: true},
+            {feature: '1일 1회 쿠쿠다스제공', available: true},
+            {feature: '주 1회 동반 식사', available: true},
+            {feature: 'Fifth Feature Plus', available: false},
+            {feature: 'Sixth Feature', available: false},
+            {feature: 'Seventh Feature', available: false},
+            {feature: 'Seventh Feature Plus', available: false},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Ninth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
+        ]
+    },
+    {
+        id: 2,
+        name: 'Gold 회원',
+        desc: '달리기 좀 한다는 분을 위한 선택',
+        price: "200,000",
+        features: [
+            {feature: '1일 1회 음료 제공', available: true},
+            {feature: '1시간 코칭', available: true},
+            {feature: '주 1회 치킨 제공', available: true},
+            {feature: '1일 1회 쿠쿠다스제공', available: true},
+            {feature: '주 1회 동반 식사', available: true},
+            {feature: '주 2회 선톡', available: true},
+            {feature: '월 1회 음주회식 참여', available: true},
+            {feature: '월 1회 콩이 사진 전송', available: true},
+            {feature: '월 1회 10분통화', available: true},
+            {feature: 'Eighth Feature', available: false},
+            {feature: 'Ninth Feature', available: false},
+            {feature: 'Tenth Feature', available: false},
+            {feature: 'Eleventh Feature', available: false}
+        ]
+    },
+    {
+        id: 3,
+        name: 'Platinum 회원',
+        desc: '혼자서도 잘달리는데 돈이 남아 도는 분을 위한 선택',
+        price: "30,000,000",
+        features: [
+            {feature: '1일 1회 음료 제공', available: true},
+            {feature: '1시간 코칭', available: true},
+            {feature: '주 1회 치킨 제공', available: true},
+            {feature: '1일 1회 쿠쿠다스제공', available: true},
+            {feature: '주 1회 동반 식사', available: true},
+            {feature: '주 2회 선톡', available: true},
+            {feature: '월 1회 음주회식 참여', available: true},
+            {feature: '월 1회 콩이 사진 전송', available: true},
+            {feature: '월 1회 10분통화', available: true},
+            {feature: '1일 1커피 추가 증정', available: true},
+            {feature: '천안 숨겨진 맛집 소개', available: true},
+            {feature: '롤 라인별 운영법 강좌', available: true},
+            {feature: '롤 티어 다이아까지 보장', available: true},
+        ]
+    },
+]
+
+
+
+
+
+
+
+
 export default links
