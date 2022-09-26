@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 
 
 const App = () => {
+  //테스트
   return (
     <BrowserRouter>
       <Navbar/>
