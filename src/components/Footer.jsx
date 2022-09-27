@@ -30,7 +30,7 @@ const Footer = () => {
                 <h4>Permalinks</h4>
                 <Link to="/about">About</Link>
                 <Link to="/plans">Plans</Link>
-                <Link to="/trainers">Trainers</Link>
+                
                 <Link to="/gallery">Gallery</Link>
                 <Link to="/contact">Contact</Link>
             </article>
@@ -49,7 +49,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-            <small>2022 민준런 &copy; All Rights Reserved</small>
+            <small>2022 가디언테일즈 &copy; All Rights Reserved</small>
         </div>
     </footer>
   )
