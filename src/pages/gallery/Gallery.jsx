@@ -4,7 +4,7 @@ import './gallery.css'
 
 
 const Gallery = () => {
-  const galleryLength = 15;
+  const galleryLength = 104;
   const images = []
 
   for(let i = 1; i <= galleryLength; i++) {

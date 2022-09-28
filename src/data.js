@@ -134,7 +134,7 @@ export const characters =[
     {
         id: 1,
         name: "민준",
-        quote: "이 게임을 아름다움을 표현하기에 인간이 언어는 너무 조악하다.",
+        quote: "이 게임의 아름다움을 표현하기에 인간이 언어는 너무 조악하다.",
         job: "힐스테이트 거주민",
         avatar: require("./images/avatar1.png")
     },
@@ -148,7 +148,7 @@ export const characters =[
     {
         id: 3,
         name: "정현",
-        quote: "신은 이 게임을 만들고 자랑하기 위해 세상을 창조하였다",
+        quote: "신은 이 게임을 만들고 그것을 뽐내기 위해 세상을 창조하였다",
         job: "돈 많은 백수",
         avatar: require("./images/avatar3.png")
     },
@@ -163,7 +163,7 @@ export const characters =[
         id: 5,
         name: "준표",
         quote: "사람은 태어나서 3번만 우는줄 알았다. 이 게임을 한 후 4번째 눈물을 흘리기 전까진  ",
-        job: "천재 개발자",
+        job: "주식계의 마이너스손",
         avatar: require("./images/avatar5.png")
     }
 ]
