@@ -1,6 +1,6 @@
 import Image from '../images/values.png'
 import SectionHead from './SectionHead'
-import {GiCutDiamond} from 'react-icons/gi'
+import {Link} from 'react-router-dom'
 import {values} from '../data'
 import Card from '../UI/Card'
 
@@ -15,9 +15,9 @@ const Values = () => {
                 </div>
             </div>
             <div className="values__right">
-                <SectionHead icon={<GiCutDiamond/>} title="Values"/>
+            <Link to="/About" className='btn lg '>좀더 알아보기!</Link>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis quidem aperiam sapiente?
+                
                 </p>
                 <div className="values__wrapper">
                     {

@@ -17,11 +17,11 @@ const MainHeader = () => {
   <div className='imageBg' ><img src={ImageBg} alt='사진'/></div>
   
 
-<h4>모험의 시작</h4>
-<h1>전설의 시작</h1>
+<h4>세상 모든 재미를 다 담았다</h4>
+<h1>띵작 어드벤처</h1>
 <p>
-
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro blanditiis placeat beatae dolores. Labore ut accusantium corporis, maiores voluptate iste itaque, earum consequatur consectetur perferendis fugiat assumenda, esse repudiandae modi!
+명작 어드벤처 RPG의 탄생! 가디언 테일즈에서 최고의 모험을 경험하세요! 거대한 던전에서 퍼즐을 풀고, 치열한 전투에서 승리하세요!  
+캔터베리를 구하기 위한 전설적인 여정이 시작됩니다.
 </p>
 
 <Link to="/plans" className='btn lg '>GET START</Link>

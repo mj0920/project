@@ -40,7 +40,7 @@ if(index >= characters.length -1){
 <SectionHead icon={<ImQuotesLeft/>} title="후기" className="characters_head"/>
 <Card className= "characters">
   <div className="characters__avatar">
-<img src={avatar} alt ={name} />
+
   </div>
 <p className="characters_quote">{`"${quote}"`}</p>
 <h5>{name}</h5>
