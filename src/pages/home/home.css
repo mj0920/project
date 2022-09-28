@@ -178,24 +178,24 @@ video {
 
 
 
-
-/* ===================== TESTIMONIALS ===================== */
-.testimonials {
+/* characters */
+/* ===================== Characters ===================== */
+.characters {
     width: 50rem;
     margin-inline: auto;
 }
 
-.testimonials__head {
+.characters__head {
     justify-content: center;
 }
 
-.card.testimonial {
+.card.characters {
     position: relative;
     text-align: left;
     margin-top: 5rem;
 }
 
-.testimonial__avatar {
+.characters__avatar {
     width: 4rem;
     height: 4rem;
     border-radius: 1.5rem;
@@ -208,21 +208,21 @@ video {
     transition: var(--transition);
 }
 
-.testimonial:hover .testimonial__avatar {
+.characters:hover .characters__avatar {
     border-radius: 50%;
     border-color: var(--color-gray-400);
 }
 
-.testimonial__quote {
+.characters__quote {
     font-style: italic;
     margin: 1rem 0 2rem;
 }
 
-.card small.testimonial__title {
+.card small.characters__title {
     margin-top: 0.3rem;
 }
 
-.testimonials__btn-container {
+.characters__btn-container {
     width: fit-content;
     margin: 2.5rem auto 0;
     display: flex;
@@ -231,12 +231,12 @@ video {
     gap: 1rem;
 }
 
-.testimonials__btn {
+.characters__btn {
 background: transparent;
 cursor: pointer;
 }
 
-.testimonials__btn svg {
+.characters__btn svg {
     fill: var(--color-primary);
     font-size: 1.8rem;
     width: 3rem;

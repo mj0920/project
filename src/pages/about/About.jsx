@@ -11,8 +11,8 @@ const About = () => {
   return (
 <>
 
-   <Header title= "About Us" image={HeaderImage}>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis corporis unde labore quae nostrum. Ipsam, quaerat? Eos aliquid quaerat quam molestias perspiciatis sit in ipsa fugit esse ducimus, illum at.
+   <Header title= "About" image={HeaderImage}>
+
    </Header>
 <section className='about_story'>
   <div className="container about_story-container"></div>

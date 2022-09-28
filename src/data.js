@@ -130,40 +130,42 @@ export const faqs =[
 
 ]
 
-export const characters = [
-{
-    id : 1,
-    name : "민준",
-    quote : "재밌어요",
-    job : "개발자" ,
-    
-},
-
-{
-    id : 2,
-    name : "민준2",
-    quote : "도트 케릭터가 너무 귀엽네여 ",
-    job : "빚쟁이" ,
-  
-},
-
-{
-    id : 3,
-    name : "민준3",
-    quote : "스토리가 너무 마음에 들어요",
-    job : "백수" ,
-    
-},
-
-
-{
-    id : 4,
-    name : "민준4",
-    quote : "브금이 좋아요",
-    job : "트레이너" ,
-   
-}
-
+export const characters =[
+    {
+        id: 1,
+        name: "민준",
+        quote: "이 게임을 아름다움을 표현하기에 인간이 언어는 너무 조악하다.",
+        job: "힐스테이트 거주민",
+        avatar: require("./images/avatar1.png")
+    },
+    {
+        id: 2,
+        name: "시현",
+        quote: "내 인생은 이 게임을 알기 전후로 나뉜다",
+        job: "멋진 개발자",
+        avatar: require("./images/avatar2.png")
+    },
+    {
+        id: 3,
+        name: "정현",
+        quote: "신은 이 게임을 만들고 자랑하기 위해 세상을 창조하였다",
+        job: "돈 많은 백수",
+        avatar: require("./images/avatar3.png")
+    },
+    {
+        id: 4,
+        name: "예은",
+        quote: "바퀴의 발명 이후 최고의 발견",
+        job: "귀여운 개발자",
+        avatar: require("./images/avatar4.png")
+    },
+    {
+        id: 5,
+        name: "준표",
+        quote: "사람은 태어나서 3번만 우는줄 알았다. 이 게임을 한 후 4번째 눈물을 흘리기 전까진  ",
+        job: "천재 개발자",
+        avatar: require("./images/avatar5.png")
+    }
 ]
 
 
